@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.O.A - Manual do Produtor Agrícola</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>M.O.A - Manual do Produtor Agrícola</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#compras">Comprar Insumos</a></li>
+                <li><a href="#contratacao">Contratação de Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="servicos">
+            <h2>Serviços Oferecidos</h2>
+            <p>O M.O.A conecta você a profissionais qualificados para atender suas necessidades agrícolas.</p>
+            <ul>
+                <li>Chame um agrônomo até sua propriedade</li>
+                <li>Compre insumos e defensivos agrícolas de cooperativas parceiras</li>
+                <li>Contrate serviços para plantio, colheita e mais</li>
+            </ul>
+        </section>
+
+        <section id="compras">
+            <h2>Comprar Insumos</h2>
+            <p>Oferecemos uma variedade de insumos e defensivos agrícolas de cooperativas confiáveis. Navegue em nosso catálogo e faça seu pedido online.</p>
+            <button>Ver Catálogo</button>
+        </section>
+
+        <section id="contratacao">
+            <h2>Contratação de Serviços</h2>
+            <p>Encontre profissionais em sua região para ajudar com plantio, colheita e outros serviços agrícolas.</p>
+            <button>Contratar Serviços</button>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações:</p>
+            <form action="submit_form.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
